@@ -74,7 +74,7 @@ class MainActivity : AppCompatActivity() {
 //        인터넷상의 이미지를 곧바로 이미지뷰에 반영.
 
         Glide.with(this)
-            .load("https://w.namu.la/s/6ea3c94470be15a2a0ce858e4ada325954abf3b9190d37d4a15d906239815f93eb0c5f60c6b6bcb264bff479f62081b5053ed853d95ceb94fce9288ebd5a6c6cbf5a56dcb980043b255eeff6830a74d0c67cb3811a1e672fe4188ba694b77fb8")
+            .load("http://w.namu.la/s/6ea3c94470be15a2a0ce858e4ada325954abf3b9190d37d4a15d906239815f93eb0c5f60c6b6bcb264bff479f62081b5053ed853d95ceb94fce9288ebd5a6c6cbf5a56dcb980043b255eeff6830a74d0c67cb3811a1e672fe4188ba694b77fb8")
             .into(imgInternet)
 
     }
